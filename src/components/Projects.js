@@ -14,10 +14,10 @@ export const Projects = () => {
 
   const compProjects = [
     {
-      title: "Weather Monitoring System (July 2024) ",
-      description: "IoT and Sensor-Based",
-      imgUrl: projImg1,
-      githubUrl: "#",
+      title: "Flood Management System (Jan 2025)",
+      description: "React,APIs and Firebase",
+      imgUrl: projImg5,
+      githubUrl: "https://github.com/namrata935/AquaAlert",
     },
     {
       title: "AR Physical Therapy Assistant (Oct 2024)",
@@ -26,22 +26,23 @@ export const Projects = () => {
       githubUrl: "https://github.com/madhumeeta27/PhysioFit",
     },
     {
+      title: " AI-Driven Ingredient Fraud Detection Tool (Oct 2024)",
+      description: "NLP and TensorFLow",
+      imgUrl: projImg4,
+      githubUrl: "https://github.com/madhumeeta27/food-guard.git",
+      
+    },
+    {
       title: "Astroverse (Apr 2024)",
       description: "Data Visualisation and APIs",
       imgUrl: projImg3,
       githubUrl: "https://github.com/code50/145886747/tree/main/project",
     },
     {
-      title: " AI-Driven Ingredient Fraud Detection Tool (Oct 2024)",
-      description: "NLP and TensorFLow",
-      imgUrl: projImg4,
-      githubUrl: "https://github.com/madhumeeta27/food-guard.git",
-    },
-    {
-      title: "Flood Management System (Jan 2025)",
-      description: "React,APIs and Firebase",
-      imgUrl: projImg5,
-      githubUrl: "https://github.com/namrata935/AquaAlert",
+      title: "Weather Monitoring System (July 2024) ",
+      description: "IoT and Sensor-Based",
+      imgUrl: projImg1,
+      githubUrl: "#",
     },
   ];
   const onProjects = [
