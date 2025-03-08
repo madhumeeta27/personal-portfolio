@@ -6,6 +6,7 @@ import projImg3 from "../assets/img/project3.png";
 import projImg4 from "../assets/img/project4.jpg";
 import projImg5 from "../assets/img/project5.png";
 import projImg6 from "../assets/img/project6.jpg";
+import projImg7 from "../assets/img/project7.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -46,6 +47,12 @@ export const Projects = () => {
     },
   ];
   const onProjects = [
+    {
+      title: "Gamified Brain-Computer Interface (BCI)",
+      description: "ADHD Treatment using gelo headphones.",
+      imgUrl: projImg7,
+      githubUrl: "#",
+    },
     {
       title: "Coding Platfrom progress",
       description: "React and APIs",
